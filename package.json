@@ -6,7 +6,7 @@
     "frontend": "npm --prefix Bharat-Medics-main/Bharat-Medics-main/frontend run dev",
     "admin": "npm --prefix Bharat-Medics-main/Bharat-Medics-main/admin run dev",
     "backend": "npm --prefix Bharat-Medics-main/Bharat-Medics-main/backend run server",
-    "build": "npm --prefix Bharat-Medics-main/Bharat-Medics-main/frontend run build && npm --prefix Bharat-Medics-main/Bharat-Medics-main/admin run build",
+    "build": "npm run install:all && npm --prefix Bharat-Medics-main/Bharat-Medics-main/frontend run build && npm --prefix Bharat-Medics-main/Bharat-Medics-main/admin run build",
     "install:all": "npm --prefix Bharat-Medics-main/Bharat-Medics-main/frontend install && npm --prefix Bharat-Medics-main/Bharat-Medics-main/backend install && npm --prefix Bharat-Medics-main/Bharat-Medics-main/admin install"
   }
 }
